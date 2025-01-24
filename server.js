@@ -103,6 +103,8 @@ app.put("/update/:id", async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server started at port ${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Server started at port ${PORT}`);
+// });
+
+module.exports = app
